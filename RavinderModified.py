@@ -117,10 +117,10 @@ print('Created entry for CLS coupe...')
 Coffee = Entity()
 Coffee.PartitionKey = 'Cofees'
 Coffee.RowKey = '005'
-clothing.brand = 'Flogers'
-clothing.flavour = 'decaf'
-clothing.size =  '32 oz'
-clothing.price =  2.5
+Coffee.brand = 'Flogers'
+Coffee.flavour = 'decaf'
+Coffee.size =  '32 oz'
+Coffee.price =  2.5
 table_service.insert_entity('itemstable', Coffee)
 print('Created entry for a Flogers decaf...\n')
 time.sleep(1)
@@ -128,10 +128,10 @@ time.sleep(1)
 Coffee = Entity()
 Coffee.PartitionKey = 'Cofees'
 Coffee.RowKey = '005'
-clothing.brand = 'Flogers'
-clothing.flavour = 'Vanilla'
-clothing.size =  '36 oz'
-clothing.price =  3.2
+Coffee.brand = 'Flogers'
+Coffee.flavour = 'Vanilla'
+Coffee.size =  '36 oz'
+Coffee.price =  3.2
 table_service.insert_entity('itemstable', Coffee)
 print('Created entry for a Flogers vanilla...\n')
 time.sleep(1)
@@ -139,10 +139,10 @@ time.sleep(1)
 Coffee = Entity()
 Coffee.PartitionKey = 'Cofees'
 Coffee.RowKey = '005'
-clothing.brand = 'Flogers'
-clothing.flavour = 'irish'
-clothing.size =  '28 oz'
-clothing.price =  2
+Coffee.brand = 'Flogers'
+Coffee.flavour = 'irish'
+Coffee.size =  '28 oz'
+Coffee.price =  2
 table_service.insert_entity('itemstable', Coffee)
 print('Created entry for a Flogers irish...\n')
 time.sleep(1)
