@@ -127,7 +127,7 @@ time.sleep(1)
 
 Coffee = Entity()
 Coffee.PartitionKey = 'Cofees'
-Coffee.RowKey = '005'
+Coffee.RowKey = '006'
 Coffee.brand = 'Flogers'
 Coffee.flavour = 'Vanilla'
 Coffee.size =  '36 oz'
@@ -138,7 +138,7 @@ time.sleep(1)
 
 Coffee = Entity()
 Coffee.PartitionKey = 'Cofees'
-Coffee.RowKey = '005'
+Coffee.RowKey = '007'
 Coffee.brand = 'Flogers'
 Coffee.flavour = 'irish'
 Coffee.size =  '28 oz'
